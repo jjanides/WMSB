@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendar Widget</title>
+  <style>
+    body {
+      background-color: #f0f5f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .calendar {
+      width: 300px;
+      margin: 50px auto;
+      background-color: #dbe2dd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #4b635b;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    th {
+      background-color: #4b635b;
+      color: #fff;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    .sage-green {
+      background-color: #dbe2dd;
+      color: #4b635b;
+    }
+  </style>
+</head>
+<body>
+  <div class="calendar">
+    <h1>May 2023</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="sage-green"></td>
+          <td class="sage-green"></td>
+          <td class="sage-green"></td>
+          <td class="sage-green">1</td>
+          <td class="sage-green">2</td>
+          <td class="sage-green">3</td>
+          <td class="sage-green">4</td>
+        </tr>
+        <tr>
+          <td class="sage-green">5</td>
+          <td class="sage-green">6</td>
+          <td class="sage-green">7</td>
+          <td class="sage-green">8</td>
+          <td class="sage-green">9</td>
+          <td class="sage-green">10</td>
+          <td class="sage-green">11</td>
+        </tr>
+        <!-- Repeat rows for the remaining days of the month -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
